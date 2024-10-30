@@ -81,7 +81,7 @@ class AppDrawer extends StatelessWidget {
             accountName: Text('Shamac Belliappa'),
             accountEmail: Text('123@msrit.edu'),
             currentAccountPicture: Image.network(
-              'https://static.statusqueen.com/dpimages/thumbnail/dp_image48-1093.jpg', // Replace with the URL of your image
+              'https://static.statusqueen.com/dpimages/thumbnail/dp_image48-1093.jpg',
               width: 90.0,
               height: 90.0,
             ),
@@ -121,7 +121,7 @@ class HomeTab extends StatelessWidget {
             'Welcome to your Smart Home!',
             style: TextStyle(fontSize: 24),
           ),
-          // Add the room cards and other content here
+          
           RoomCard(name: 'Living Room'),
           RoomCard(name: 'Bedroom'),
         ],
